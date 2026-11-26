@@ -88,6 +88,8 @@ CI runs all of these on every push and pull request.
 
 ## Deployment
 
+**One-click free demo (Render):** create a Render account, connect this repository, and Render will detect `render.yaml`. Optionally add `GITHUB_TOKEN` as an environment variable to raise the GitHub rate limit. The health check is `/`.
+
 With `adapter-node`:
 
 ```bash

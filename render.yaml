@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: oss-on-ramp
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /
+    envVars:
+      - key: GITHUB_TOKEN
+        sync: false
